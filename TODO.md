@@ -1,0 +1,17 @@
+# TODO
+Below is my to-do list for everything portfolio related. Note that this only includes changes and plans for the portfolio site itself, rather than the content of my projects. 
+
+ - [x] Make a website
+ - [ ] Find out whats going on + read documentation
+ - [ ] Add a test writeup
+ - [ ] Customize the layout
+    - [ ] Create / import layouts for blog pages
+        - [ ] Import first, look into cusomizing later
+    - [ ] Change the colors
+    - [ ] Move the sidebar to the top? + increase margins
+    - [ ] Fonts and other appearance edits
+    - [ ] Add profile photo
+    - [ ] Github and other links
+        - [ ] Bonus: find a way to make it auto-update to match github profile
+- [ ] Incorporating markdown-translated text into existing HTML + CSS + JavaScript pages for increased coolness
+    - [ ] Interactive buttons that display converted markdown text as a window rather than a separate page

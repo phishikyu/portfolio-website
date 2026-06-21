@@ -5,3 +5,7 @@ gem "jekyll", "~> 4.4.1" # installed by `gem jekyll`
 
 gem "just-the-docs", "0.12.0" # pinned to the current release
 # gem "just-the-docs"        # always download the latest release
+
+gem "erb", "~> 6.0"
+gem "logger", "~> 1.7"
+gem "webrick", "~> 1.9"
