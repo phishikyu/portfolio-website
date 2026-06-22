@@ -105,7 +105,8 @@ figcaption {
 
 .right-half .profile-photo {
     width: 100%;
-    image-rendering: crisp-edges;
+    /* Turn this off when no crispy */
+    /* image-rendering: crisp-edges; */
 }
 
 .right-half .personal-links {
