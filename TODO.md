@@ -15,3 +15,4 @@ Below is my to-do list for everything portfolio related. Note that this only inc
         - [ ] Bonus: find a way to make it auto-update to match github profile
 - [ ] Incorporating markdown-translated text into existing HTML + CSS + JavaScript pages for increased coolness
     - [ ] Interactive buttons that display converted markdown text as a window rather than a separate page
+- [ ] Add a second license to protect IP without infringing on the existing MIT license
