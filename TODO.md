@@ -1,6 +1,5 @@
-# TODO
-Below is my to-do list for everything portfolio related. Note that this only includes changes and plans for the portfolio site itself, rather than the content of my projects. 
 
+## <b>General:<b>
  - [x] Make a website
  - [ ] Find out whats going on + read documentation
  - [ ] Add a test writeup
@@ -16,3 +15,10 @@ Below is my to-do list for everything portfolio related. Note that this only inc
 - [ ] Incorporating markdown-translated text into existing HTML + CSS + JavaScript pages for increased coolness
     - [ ] Interactive buttons that display converted markdown text as a window rather than a separate page
 - [ ] Add a second license to protect IP without infringing on the existing MIT license
+
+
+## <b>Landing Page:<b>
+- [x] Use HTML instead of markdown
+- [ ] Customize + add features and tabs
+- [x] Integrate markdown
+- [ ] Add links + buttons for other sections

@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,13 +11,63 @@
     <title>phishikyu's home page</title>
 </head>
 <body>
-    
-    <header class="welcome-header">Welcome to phishikyu!</header>
-    <main class="portfolio-description">
-    This is my html landing page <br>
-    I plan to use the markdown format for blogs and writeups, with actual functionality and website features written using html, css, and javascript. <br>
-    But for now all of this is just text for the sake of being text!
+    <main class="layout">
+        <main class="sidebar-left">
+            <main class="nav-tabs">
+                
+            </main>
+            <main class="nav-tabs">
+                
+            </main>
+        </main>
+        <main class="main-box">
+            <section class="left-half">
+                <header class="welcome-header">Welcome to phishikyu!</header>
+                <main class="portfolio-description">
+                This is my html landing page <br>
+                I plan to use the markdown format for blogs and writeups, with actual functionality and website features written using html, css, and javascript. <br>
+                But for now all of this is just text for the sake of being text!
+                </main>
+            </section>
+            <section class="right-half">
+                <!-- Placeholder Image -->
+                <section class="profile-photo">
+                    <!-- <img src="https://avatars.githubusercontent.com/u/110137370?v=4" width="100%" height=auto> -->
+                    <img src="/assets/images/Logo-Placeholder.png" width="100%" height=auto>
+
+                </section>
+                <section class="personal-links">
+                    <section class="baby-link">
+                        <a href="https://github.com/phishikyu">Github</a>
+                    </section>
+                    <section class="baby-link">
+                        <!-- placeholder link -->
+                    </section>
+                    <section class="baby-link">
+                        <!-- placeholder link -->
+                    </section>
+
+                    
+                </section>
+            </section>
+        </main>
+        <main class="sidebar-right">
+            <section class="header-box">
+                <section class="header">
+                    TODO
+                </section>
+                <section class="subtext">
+                    Below is my to-do list for everything portfolio related. Note that this only includes changes and plans for the portfolio site itself, rather than the content of my projects.
+                </section>
+            </section>
+            <section class="todo">
+                <!-- Import Markdown File -->
+                {% capture todo %}
+                {% include_relative TODO.md %}
+                {% endcapture %}
+                {{ todo | markdownify }}
+            </section>
+        </main>
     </main>
-    
 </body>
 </html>
