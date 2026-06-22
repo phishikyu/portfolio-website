@@ -7,6 +7,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");                 /* Audiowide        */
 @import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");              /* Rubik Glitch     */
 
+@font-face {
+    font-family: PixelBody;
+    src: url("/assets/fonts/pixelFont.ttf");
+}
 
 /* 
 Semantic elements that exist solely to remind me they exist 
@@ -24,7 +28,7 @@ nav {
 }
 
 main {
-    border: red;
+    border: green;
     border-style: solid;
 }
 
@@ -48,12 +52,35 @@ figcaption {
     border-style: solid;
 }
 
-
-@font-face {
-    font-family: PixelBody;
-    src: url("/assets/fonts/pixelFont.ttf");
+.layout {
+    display: flex;
+    flex-direction: row;
 }
-/* VT323 , Silkscreen , Share Tech Mono , Audiowide , Rubik Glitch*/
+
+.layout .sidebar-left {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.layout .main-box {
+    border-color: aqua;
+    display: flex;
+    flex: 3 1 0;
+}
+
+.layout .sidebar-right {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.main-box .left-half {
+    width: 70%;
+}
+
+.main-box .right-half {
+    width: 30%;
+}
+
 .welcome-header {
     color: green;
     font-family: "Audiowide";
