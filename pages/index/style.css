@@ -1,0 +1,70 @@
+
+/* Font Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");                     /* VT323            */
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");   /* Silkscreen       */
+@import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");           /* Share Tech Mono  */
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");                 /* Audiowide        */
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");              /* Rubik Glitch     */
+
+
+/* 
+Semantic elements that exist solely to remind me they exist 
+Now with red borders for extra flair
+*/
+
+header {
+    border: red;
+    border-style: solid;
+}
+
+nav {
+    border: red;
+    border-style: solid;
+}
+
+main {
+    border: red;
+    border-style: solid;
+}
+
+section {
+    border: red;
+    border-style: solid;
+}
+
+footer {
+    border: red;
+    border-style: solid;
+}
+
+figure {
+    border: red;
+    border-style: solid;
+}
+
+figcaption {
+    border: red;
+    border-style: solid;
+}
+
+
+@font-face {
+    font-family: PixelBody;
+    src: url("/assets/fonts/pixelFont.ttf");
+}
+/* VT323 , Silkscreen , Share Tech Mono , Audiowide , Rubik Glitch*/
+.welcome-header {
+    color: green;
+    font-family: "Audiowide";
+    font-size: 64px;
+}
+
+.portfolio-description {
+    color: blue;
+    font-family: "Share Tech Mono";
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
