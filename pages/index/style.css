@@ -97,6 +97,10 @@ figcaption {
     
 }
 
+.nav-tabs button:hover {
+    background-color: #4f44e0;
+}
+
 /* Main Box */
 
 .layout .main-box {
@@ -121,7 +125,9 @@ figcaption {
 .main-box .right-half {
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 25%;
+    padding: 20px;
+
 
     border-style: solid;
     border-color: #6b61ed;
@@ -133,8 +139,7 @@ figcaption {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    padding: 20px;
+    padding: 0px 0px 10px 0px;
     box-sizing: border-box;
     /* Turn this off when no crispy */
     /* image-rendering: crisp-edges; */
@@ -142,9 +147,9 @@ figcaption {
 
 .profile-photo img {
     display: block;
-    width: 95%;
+    width: 100%;
     border-radius: 50%;
-    border-color: #FF37AE;
+    border-color: #ffabde;
     border-style: double;
 
     aspect-ratio: 1/1;
@@ -153,13 +158,29 @@ figcaption {
 .right-half .personal-links {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    align-self: center;
 }
 
-.personal-links .baby-link {
+.personal-links button {
     font-family: "Share Tech Mono";
     font-weight: 600;
     font-size: 24px;
     text-align: center;
+
+    color: white;
+    background-color: #6b61ed;
+    border-color: #5d53de;
+    border-style: solid;
+    padding: 5px 10px 5px 10px;
+
+    cursor: pointer;
+
+}
+
+.personal-links button:hover {
+    background-color: #4f44e0;
 }
 
 
@@ -172,7 +193,7 @@ figcaption {
 }
 
 .portfolio-description {
-    color: #0FF78F;
+    color: #6b61ed;
     font-family: "Share Tech Mono";
     text-align: left;
     font-size: 30px;
@@ -227,10 +248,6 @@ figcaption {
 
 }
 
-.todo h2 {
-    color: #FF37AE;
-}
-
 .sidebar-right .todo {
     height: 400px;
     padding: 20px 20px 20px 20px;
@@ -263,8 +280,9 @@ figcaption {
 }
 
 .sidebar-right .todo-scroll h2 {
+    color: #FF37AE;
     margin-top: 0;
-    margin-bottom: 0.35em;
+    margin-bottom: 0;
     line-height: 1;
 }
 
