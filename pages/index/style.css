@@ -83,11 +83,10 @@ figcaption {
 /* Main Box */
 
 .layout .main-box {
-    border-color: aqua;
     display: flex;
     padding: 40px;
     flex: 3 1 0;
-
+    gap: 20px;
     min-height: 80vh;
 }
 
@@ -95,18 +94,43 @@ figcaption {
     display: flex;
     flex-direction: column;
     width: 70%;
+
+    border-style: solid;
+    border-color: #6b61ed;
+    border-radius: 40px;
+    border-width: 10px;
 }
 
 .main-box .right-half {
     display: flex;
     flex-direction: column;
     width: 30%;
+
+    border-style: solid;
+    border-color: #6b61ed;
+    border-radius: 40px;
+    border-width: 10px;
 }
 
 .right-half .profile-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
     /* Turn this off when no crispy */
     /* image-rendering: crisp-edges; */
+}
+
+.profile-photo img {
+    display: block;
+    width: 95%;
+    border-radius: 50%;
+    border-color: #FF37AE;
+    border-style: double;
+
+    aspect-ratio: 1/1;
 }
 
 .right-half .personal-links {
@@ -135,6 +159,8 @@ figcaption {
     text-align: left;
     font-size: 32px;
     font-weight: 600;
+
+    padding: 20px;
 }
 
 /* Right Sidebar */
@@ -145,14 +171,19 @@ figcaption {
     gap: 20px;
     flex: 1 1 0;
     width: 30vw;
-    padding: 30px;
+    padding: 40px;
     min-width: 0;
-
 }
 
 .sidebar-right .header-box {
     display: flex;
     flex-direction: column;
+    padding: 0px 20px 20px 20px;
+    
+    border-radius: 20px;
+    border-color: #6b61ed;
+    border-style: solid;
+    border-width: 10px;
 }
 
 .header-box .header {
@@ -183,11 +214,25 @@ figcaption {
 
 .sidebar-right .todo {
     height: 400px;
+    padding: 20px 20px 20px 20px;
+
+    color: #6b61ed;
+    font-family: "VT323", monospace;
+    font-size: 24px;
+    line-height: 1;
+
+    border-style: solid;
+    border-color: #6b61ed;
+    border-radius: 40px;
+    border-width: 10px;
+
+    display: flex;
+}
+
+.sidebar-right .todo-scroll {
+    height: 100%;
     overflow-y: auto;
-    padding-top: 0px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 30px;
+    box-sizing: border-box;
 
     text-wrap: wrap;
     white-space: wrap;
@@ -197,6 +242,14 @@ figcaption {
     font-size: 24px;
     line-height: 1;
 }
+
+.sidebar-right .todo-scroll h2 {
+    margin-top: 0;
+    margin-bottom: 0.35em;
+    line-height: 1;
+}
+
+
 
 /* Checkboxes for markdown */
 .todo input[type="checkbox"]{
