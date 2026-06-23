@@ -17,7 +17,7 @@ Semantic elements that exist solely to remind me they exist
 Now with red borders for extra flair
 */
 
-body {
+/* body {
     margin: 0;
 }
 
@@ -54,7 +54,7 @@ figure {
 figcaption {
     border: red;
     border-style: solid;
-}
+} */
 
 .layout {
     display: flex;
@@ -76,8 +76,25 @@ figcaption {
 }
 
 .sidebar-left .nav-tabs {
-    max-height:10%;
+    min-height: 10%;
+    max-height: 20%;
     flex: 1 1 0;
+}
+
+.nav-tabs button {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+    border-style: solid;
+    
+    font-family: "VT323";
+    font-size: 36px;
+    color: white;
+    
+    border-color: white;
+    background-color: #6b61ed;
+    cursor: pointer;
+    
 }
 
 /* Main Box */
@@ -157,7 +174,7 @@ figcaption {
     color: #0FF78F;
     font-family: "Share Tech Mono";
     text-align: left;
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 600;
 
     padding: 20px;
@@ -189,6 +206,7 @@ figcaption {
 .header-box .header {
     text-wrap: wrap;
     white-space: wrap;
+    padding: 0px;
 
     color: #FF37AE;
     font-family: "VT323";
