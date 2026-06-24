@@ -60,7 +60,6 @@ figcaption {
     display: flex;
     flex-direction: row;
     padding: 50px;
-    gap: 20px
 }
 
 /* Left Sidebar */
@@ -109,6 +108,9 @@ figcaption {
     flex: 3 1 0;
     gap: 20px;
     min-height: 80vh;
+
+    flex-direction: row;
+    align-items: flex-start;
 }
 
 .main-box .left-half {
@@ -127,12 +129,15 @@ figcaption {
     flex-direction: column;
     width: 25%;
     padding: 20px;
-
-
+    min-height: 0px;
+    
     border-style: solid;
     border-color: #6b61ed;
     border-radius: 40px;
     border-width: 10px;
+    flex: auto;
+    height: auto;
+
 }
 
 .right-half .profile-photo {
