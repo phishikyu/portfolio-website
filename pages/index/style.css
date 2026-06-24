@@ -122,6 +122,8 @@ figcaption {
     border-color: #6b61ed;
     border-radius: 40px;
     border-width: 10px;
+
+    min-height: 80vh;
 }
 
 .main-box .right-half {
