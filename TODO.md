@@ -1,5 +1,6 @@
 ## <b>General:</b>
  - [x] Make a website
+ - [ ] Edit the README
  - [ ] Find out whats going on with jekyll + read documentation
  - [ ] Add a test writeup
  - [ ] Customize the jekyll layout
@@ -22,3 +23,5 @@
 - [x] Integrate markdown
 - [ ] Add links + buttons for other sections
 - [ ] Change colors + needs more fish
+    - [x] Earth tone + red bean color palette
+    - [ ] Pixel art

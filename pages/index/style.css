@@ -51,15 +51,31 @@ figure {
     border-style: solid;
 } */
 
+
+:root {
+    --cream: #FAF7F2;
+    --oat: #EFE9E1;
+    --taupe: #D0C4BB;
+    --clay: #D69E83;
+    --azuki: #A96F6E;
+    --red-bean:#824043;
+    --red-bean-dark:#672d30;
+    --cocoa: #362C2c;
+    --flair: #ff8e8e;
+}
+
 figcaption {
     border: red;
     border-style: solid;
 }
 
+
+
 .layout {
     display: flex;
     flex-direction: row;
     padding: 50px;
+    background-color: var(--cream);
 }
 
 /* Left Sidebar */
@@ -72,6 +88,13 @@ figcaption {
 
     width: 30vw;
     padding: 50px 30px 50px 30px;
+
+    background-color: var(--red-bean-dark);
+
+    border-style: solid;
+    border-color: var(--azuki);
+    border-radius: 40px;
+    border-width: 10px;
 }
 
 .sidebar-left .nav-tabs {
@@ -88,16 +111,16 @@ figcaption {
     
     font-family: "VT323";
     font-size: 36px;
-    color: white;
+    color: var(--oat);
     
-    border-color: #5d53de;
-    background-color: #6b61ed;
+    border-color: var(--red-bean);
+    background-color: var(--clay);
     cursor: pointer;
     
 }
 
 .nav-tabs button:hover {
-    background-color: #4f44e0;
+    background-color: var(--azuki);
 }
 
 /* Main Box */
@@ -119,10 +142,11 @@ figcaption {
     width: 70%;
 
     border-style: solid;
-    border-color: #6b61ed;
+    border-color: var(--red-bean-dark);
     border-radius: 40px;
     border-width: 10px;
 
+    background-color: var(--azuki);
     min-height: 70vh;
 }
 
@@ -133,12 +157,15 @@ figcaption {
     padding: 20px;
     min-height: 0px;
     
+    
     border-style: solid;
-    border-color: #6b61ed;
     border-radius: 40px;
     border-width: 10px;
     flex: auto;
     height: auto;
+
+    border-color: var(--azuki);
+    background-color: var(--oat);
 
 }
 
@@ -156,7 +183,7 @@ figcaption {
     display: block;
     width: 100%;
     border-radius: 50%;
-    border-color: #ffabde;
+    border-color: var(--azuki);
     border-style: double;
 
     aspect-ratio: 1/1;
@@ -177,22 +204,22 @@ figcaption {
     text-align: center;
 
     color: white;
-    background-color: #6b61ed;
-    border-color: #5d53de;
     border-style: solid;
     padding: 5px 10px 5px 10px;
 
+    border-color: var(--red-bean);
+    background-color: var(--clay);
     cursor: pointer;
 
 }
 
 .personal-links button:hover {
-    background-color: #4f44e0;
+    background-color: var(--azuki);
 }
 
 
 .welcome-header {
-    color: #FF37AE;
+    color: var(--cream);
     font-family: "Audiowide";
     text-align: center;
     font-size: 60px;
@@ -200,7 +227,7 @@ figcaption {
 }
 
 .portfolio-description {
-    color: #6b61ed;
+    color: var(--cream);
     font-family: "Share Tech Mono";
     text-align: left;
     font-size: 30px;
@@ -217,7 +244,7 @@ figcaption {
     gap: 20px;
     flex: 1 1 0;
     width: 30vw;
-    padding: 40px;
+    padding: 0px 40px 40px 40px;
     min-width: 0;
 }
 
@@ -227,9 +254,11 @@ figcaption {
     padding: 0px 20px 20px 20px;
     
     border-radius: 20px;
-    border-color: #6b61ed;
     border-style: solid;
     border-width: 10px;
+
+    border-color: var(--cocoa);
+    background-color: var(--red-bean-dark);
 }
 
 .header-box .header {
@@ -237,7 +266,7 @@ figcaption {
     white-space: wrap;
     padding: 0px;
 
-    color: #FF37AE;
+    color: var(--cream);
     font-family: "VT323";
     font-size: 64px;
 
@@ -249,25 +278,26 @@ figcaption {
     text-wrap: wrap;
     white-space: wrap;
     
-    color: #6b61ed;
+    color: var(--cream);
     font-family: "VT323";
     font-size: 24px;
 
 }
 
 .sidebar-right .todo {
-    height: 400px;
+    height: 500px;
     padding: 20px 20px 20px 20px;
 
-    color: #6b61ed;
     font-family: "VT323", monospace;
     font-size: 24px;
     line-height: 1;
 
     border-style: solid;
-    border-color: #6b61ed;
+    border-color: var(--cocoa);
     border-radius: 40px;
     border-width: 10px;
+
+    background-color: var(--red-bean-dark);
 
     display: flex;
 }
@@ -280,14 +310,14 @@ figcaption {
     text-wrap: wrap;
     white-space: wrap;
 
-    color: #6b61ed;
+    color: var(--cream);
     font-family: "VT323", monospace;
     font-size: 24px;
     line-height: 1;
 }
 
 .sidebar-right .todo-scroll h2 {
-    color: #FF37AE;
+    color: var(--cream);
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1;
@@ -301,20 +331,20 @@ figcaption {
   appearance: none;
   width: 2em;
   height: 2em;
-  border: 2px solid #ccc;
+  border: 2px solid var(--oat);
   border-radius: 4px;
   display: inline-block;
   vertical-align: middle;
   margin-right: .5rem;
-  background: white;
+  background: var(--cream);
 }
 .todo input[type="checkbox"]:checked{
-  border-color: #89fdff;
+  border-color: var(--cocoa);
   background: linear-gradient(135deg,#ff7a18,#ff4d6d);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 70% 70%;
-  background-color: #38ffa6;
+  background-color: var(--clay);
   /* simple white checkmark SVG as background */
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath fill='%23ffffff' d='M6.173 11.414L3.05 8.29 1.636 9.703 6.173 14.24 14.364 6.05 12.95 4.636z'/%3E%3C/svg%3E");
 }
